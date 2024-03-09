@@ -1,4 +1,4 @@
-# f=open("C:\\Users\\shiva\\OneDrive\\Desktop\\shiv.txt",mode="r+")
+f=open("C:\\Users\\shiva\\OneDrive\\Desktop\\shiv.txt",mode="r+")
 # print(f.tell())
 # x=f.read()
 # print(f.tell())
@@ -11,16 +11,16 @@
 # f.close();
 
 
-# f=open("C:\\Users\\shiva\\OneDrive\\Desktop\\shiv.txt",mode="w+")
-# print(f.tell())
-# f.write("Hello guys shivam patel here..")
-# print(f.tell())
-# f.seek(0)
-# print(f.tell())
-# r=f.read()
-# print(f.tell())
-# print(r)
-# f.close();
+f=open("C:\\Users\\shiva\\OneDrive\\Desktop\\shiv.txt",mode="w+")
+print(f.tell())
+f.write("Hello guys shivam patel here..")
+print(f.tell())
+f.seek(0)
+print(f.tell())
+r=f.read()
+print(f.tell())
+print(r)
+f.close();
 
 f=open("C:\\Users\\shiva\\OneDrive\\Desktop\\shiv.txt",mode="a+")
 print(f.tell())

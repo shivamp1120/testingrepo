@@ -14,7 +14,7 @@ class Son(Dad):
         super().run()
         print("son class:",self.a)
 
-ob=Son(45,50)
-ob1=Son(60,70)
+ob=Son(45)
+ob1=Son(60)
 ob.start()
 ob1.start()

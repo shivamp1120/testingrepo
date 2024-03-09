@@ -95,7 +95,3 @@ while True:
 # List Student Science > Computer
 # Bottom 2 Student ....
   
-# lis=[10,20,30,40,20,50,60,40]
-# uni=set(lis)
-# lis=(list(uni))
-# print(lis)
